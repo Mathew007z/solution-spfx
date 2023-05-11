@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pnp-prueba-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnpPrueba/PnpPruebaWebPart.js",
+          "manifest": "./src/webparts/pnpPrueba/PnpPruebaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnpPruebaWebPartStrings": "lib/webparts/pnpPrueba/loc/{locale}.js"
+  }
+}
